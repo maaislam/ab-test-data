@@ -1,0 +1,30 @@
+{
+  "name": "ab-test-data",
+  "version": "1.0.0",
+  "description": "app to send data received from google sheet to AWS S3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maaislam/ab-test-data.git"
+  },
+  "keywords": [
+    "aws",
+    "s3",
+    "javascript",
+    "node",
+    "cli"
+  ],
+  "author": "Arafat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maaislam/ab-test-data/issues"
+  },
+  "homepage": "https://github.com/maaislam/ab-test-data#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1531.0",
+    "dotenv": "^16.3.1"
+  }
+}
